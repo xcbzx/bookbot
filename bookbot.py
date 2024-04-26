@@ -1,3 +1,6 @@
+book_path = "books/Frankenstein.txt"
+
+
 def file_to_string(book_path):
     with open(book_path, 'r') as file:
         file_string = file.read()
@@ -26,7 +29,6 @@ def count_characters(book_path):
 
 
 def main():
-    book_path = "books/Frankenstein.txt"
     print("---Begin report of books/Frankenstein.txt ---")
     print(f"Words in book: {total_words()}")
 
